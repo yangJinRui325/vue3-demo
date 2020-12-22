@@ -20,7 +20,7 @@ import {
 
 export default {
   setup() {
-    console.log("setup")
+    console.log("setup");
     onBeforeMount(() => {
       console.log("onBeforeMount");
     });

@@ -5,8 +5,10 @@
     <router-link to="/model">Model</router-link>
     |
     <router-link to="/life">生命周期</router-link>
+    |
+    <router-link to="/rands">route && store</router-link>
   </div>
-  <router-view />
+  <router-view/>
 </template>
 
 <style lang="less">
@@ -16,6 +18,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+button {
+  cursor: pointer;
 }
 
 #nav {

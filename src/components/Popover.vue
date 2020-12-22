@@ -22,6 +22,16 @@ export default {
     }
   },
   setup(props, context) {
+    //setup第一个形参：接收props参数
+    //setup第二个形参：上下文对象。这个上下文对象中包含了一些有用的属性，这些属性在 vue 2.x 中需要通过 this 才能访问到
+    /*
+     * context.attrs
+     * context.slots
+     * context.parent
+     * context.root
+     * context.emit
+     * context.refs
+     * */
     const changevVisible = () => {
       context.emit("update:visible", false);
     };
