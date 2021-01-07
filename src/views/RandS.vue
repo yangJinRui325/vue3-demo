@@ -29,6 +29,7 @@ export default {
     const curRouterPath = router.currentRoute.value.path;
     const backRouterPath = router.options.history.state.back;
     console.log(route, router);
+
     /*vuex*/
     const store = useStore();
     console.log(store);

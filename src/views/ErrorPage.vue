@@ -17,8 +17,7 @@ import { getCurrentInstance, computed } from "vue";
 
 export default {
   setup() {
-    const {ctx} = getCurrentInstance();
-    console.log(ctx);
+    const { ctx } = getCurrentInstance();
     /*路由*/
     const curRoutePath = ctx.$router.currentRoute.value.path;
     /*vuex*/
